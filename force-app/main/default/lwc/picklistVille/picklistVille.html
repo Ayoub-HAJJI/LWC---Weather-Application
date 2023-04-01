@@ -1,0 +1,31 @@
+<template>
+    
+    <lightning-card title="Liste des Villes" class="pickCard">
+
+        <lightning-combobox 
+        label="Choisissez une Ville :" 
+        placeholder="Choisissez une Ville :"
+        options={villes}
+        onchange={handleAccountVilleChange}
+        style="font-size: medium;"
+        >
+        </lightning-combobox>
+
+        <br>
+        <br>
+        <div class="slds-align_absolute-center">
+            <lightning-button
+            label="Voir la météo"
+            onclick={handleAccountVilleClick}
+            variant="brand"
+            class="pickButton"
+            >
+            </lightning-button>
+        </div>
+
+
+    </lightning-card>
+
+    
+
+</template>

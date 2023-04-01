@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <masterLabel>VILLE_WEATHER</masterLabel>
+
+    <isExposed>true</isExposed>
+
+    <description>This is a sample Lightning Message Channel.</description>
+
+    <lightningMessageFields>
+        <fieldName>city</fieldName>
+        <description>city</description>
+    </lightningMessageFields>
+
+    <lightningMessageFields>
+        <fieldName>temperature</fieldName>
+        <description>temperature</description>
+    </lightningMessageFields>
+
+
+    <lightningMessageFields>
+        <fieldName>country</fieldName>
+        <description>country</description>
+    </lightningMessageFields>
+
+    <lightningMessageFields>
+        <fieldName>humidity</fieldName>
+        <description>humidity</description>
+    </lightningMessageFields>
+
+    <lightningMessageFields>
+        <fieldName>description</fieldName>
+        <description>description</description>
+    </lightningMessageFields>
+
+    <lightningMessageFields>
+        <fieldName>country</fieldName>
+        <description>country</description>
+    </lightningMessageFields>
+
+</LightningMessageChannel>
